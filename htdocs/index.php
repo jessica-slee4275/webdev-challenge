@@ -20,37 +20,20 @@
     </ul>
     <div id="content-wrapper">
       <div class="container-fluid">
-        <!-- Area Chart Example-->
-        <!-- <div class="card mb-3" style = "display: none;">
-          <div class="card-header">
-            <i class="fas fa-chart-area"></i>
-            Area Chart Example</div>
-          <div class="card-body">
-            <canvas id="myAreaChart" width="100%" height="30"></canvas>
-          </div>
-          <div class="card-footer small text-muted">Updated </div>
-        </div> -->
-        <!-- DataTables Example -->
+        <!-- DataTables -->
         <div class="card mb-3">
         <div class="container mt-3">
-        <!-- <textarea id="textbox">Type something here</textarea> <button id="create">Create file</button>  -->
             <div class="custom-file mb-3">
               <input type="file" class="custom-file-input" id="file-input" name="filename">
               <label class="custom-file-label" for="file-input">Choose file</label>
             </div>
             <div>
-              <!-- <button type="button" id="create" class="btn btn-primary" onclick="openFileExplorer()">
-                <a download="data.csv" id="downloadlink" style="color:white;">Generate</a>
-              </button> -->
               <form method="post"> 
-                <input type="submit" class="btn btn-primary" name="btn_new_file_generate" value = "Clear Data Table"/> 
-                <!-- <input type="submit" class="btn btn-primary" name="btn_new_file_generate" value = "Generate"/>  -->
-                <input type="submit" class="btn btn-warning right" name="btn_default" value = "Generate with Default File"/> 
+                <input type="text" id="demo" name="imported_data" style="display:none;">
+                <input id = "btn_new" type="submit" class="btn btn-primary" name="btn_new_file_generate" value = "Generate with New File" onclick = "GenerateNew()"/> 
+                <input id = "btn_default"type="submit" class="btn btn-warning right" name="btn_default" value = "Generate with Default File" onclick = "GenerateDefault()"/> 
               </form>
-              <p id="demo" ></p>
             </div>
-            <!-- <input type="file" id="file-input" style = "display:none;"/> -->
-            <p id="file-content" name = "imported_data" ></p>
         </div>
         <div class="card-header">
           <i class="fas fa-table"></i>

@@ -9,3 +9,4 @@ pm_winnt:notice] [pid 4064:tid 340] AH00455: Apache/2.4.41 (Win32) PHP/7.4.1 con
 [Wed Dec 18 10:33:16.759765 2019] [php7:error] [pid 10712:tid 764] [client ::1:40884] script 'C:/Apache24/htdocs/index.html' not found or unable to stat
 [Wed Dec 18 11:51:03.823242 2019] [php7:error] [pid 10712:tid 776] [client ::1:41715] script 'C:/Apache24/htdocs/index.html' not found or unable to stat
 [Wed Dec 18 16:26:29.621093 2019] [php7:error] [pid 10712:tid 764] [client ::1:54110] script 'C:/Apache24/htdocs/action_page.php' not found or unable to stat, referer: http://localhost:8000/index.php
+[Fri Dec 20 10:23:26.410156 2019] [php7:error] [pid 10712:tid 752] [client ::1:23247] script 'C:/Apache24/htdocs/process.php' not found or unable to stat, referer: http://localhost:8000/index.php
