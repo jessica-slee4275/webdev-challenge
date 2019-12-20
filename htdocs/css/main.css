@@ -1,0 +1,25 @@
+
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+.clear
+{
+    float: none;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+html{
+    font-family: 'Inria Serif', serif !important;
+}
+.table_title{
+    font-weight: bold;
+    font-size: 120%;
+}

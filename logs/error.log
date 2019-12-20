@@ -1,0 +1,11 @@
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 4064:tid 340] AH00455: Apache/2.4.41 (Win32) PHP/7.4.1 configured -- resuming normal operations
+[Wed Dec 18 08:19:26.196289 2019] [mpm_winnt:notice] [pid 4064:tid 340] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:32:28
+[Wed Dec 18 08:19:26.196289 2019] [core:notice] [pid 4064:tid 340] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Dec 18 08:19:26.197265 2019] [mpm_winnt:notice] [pid 4064:tid 340] AH00418: Parent: Created child process 10712
+[Wed Dec 18 08:19:26.479492 2019] [mpm_winnt:notice] [pid 10712:tid 240] AH00354: Child: Starting 64 worker threads.
+[Wed Dec 18 10:08:11.003906 2019] [php7:error] [pid 10712:tid 764] [client ::1:47477] script 'C:/Apache24/htdocs/index.php' not found or unable to stat
+[Wed Dec 18 10:33:16.759765 2019] [php7:error] [pid 10712:tid 764] [client ::1:40884] script 'C:/Apache24/htdocs/index.html' not found or unable to stat
+[Wed Dec 18 11:51:03.823242 2019] [php7:error] [pid 10712:tid 776] [client ::1:41715] script 'C:/Apache24/htdocs/index.html' not found or unable to stat
+[Wed Dec 18 16:26:29.621093 2019] [php7:error] [pid 10712:tid 764] [client ::1:54110] script 'C:/Apache24/htdocs/action_page.php' not found or unable to stat, referer: http://localhost:8000/index.php
